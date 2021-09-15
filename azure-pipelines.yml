@@ -35,7 +35,7 @@ steps:
     feedsToUse: 'select'
     vstsFeed: 'my-vsts-feed' # A series of numbers and letters
 - task: DotNetCoreCLI@2
-  nputs:
+  inputs:
     command: restore
     projects: '**/*.csproj'
     feedsToUse: config
