@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  Myagent: Test
+  Myagent: "Test"
 
 variables:
   buildConfiguration: 'Release'
