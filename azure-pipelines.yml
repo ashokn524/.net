@@ -42,3 +42,8 @@ steps:
     feedsToUse: 'select'
     vstsFeed: 'my-vsts-feed'
 
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    arguments: '--configuration $(buildConfiguration)'
+  displayName: 'dotnet build $(buildConfiguration)'
