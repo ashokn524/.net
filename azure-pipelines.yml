@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: windows-2019
+  Myagent: Test
 
 variables:
   buildConfiguration: 'Release'
